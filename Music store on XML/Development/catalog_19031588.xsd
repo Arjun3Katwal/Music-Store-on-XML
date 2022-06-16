@@ -1,0 +1,96 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Music_store">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Store_Info">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Logo">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="id"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="Name"/>
+              <xs:element name="Address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="City">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="id"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Country">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="id"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Telephone_Number">
+              <xs:simpleType>
+                <xs:restriction base="xs:integer">
+                  <xs:pattern value="025[0-9]{6}"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:element>
+              <xs:element type="xs:anyURI" name="Website"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="id"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Music_Info">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Year" maxOccurs="unbounded" minOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Release_Year">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:integer">
+                          <xs:pattern value="20[0-9]{1}[0-9]{1}"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="Song_Info" maxOccurs="unbounded" minOccurs="1">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="Song_Name"/>
+                          <xs:element name="Writer">
+                            <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                              <xs:minLength value="5"/>
+                              <xs:maxLength value="30"/>
+                            </xs:restriction>
+                          </xs:simpleType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="Singer"/>
+                          <xs:element type="xs:string" name="Producer" minOccurs="0"/>
+                          <xs:element type="xs:string" name="Album" minOccurs="0"/>
+                          <xs:element type="xs:string" name="Recorded" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="class" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

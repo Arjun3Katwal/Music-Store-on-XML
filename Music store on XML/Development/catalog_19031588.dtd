@@ -1,0 +1,24 @@
+<!ELEMENT Music_store (Store_Info,Music_Info)>
+<!ELEMENT Store_Info (Logo,Name,Address+,Telephone_Number,Website)>
+<!ATTLIST Store_Info id ID #REQUIRED>
+<!ELEMENT Logo EMPTY>
+<!ATTLIST Logo id ID #REQUIRED>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Address (City,Country)>
+<!ELEMENT City (#PCDATA)>
+<!ATTLIST City id ID #REQUIRED>
+<!ELEMENT Country (#PCDATA)>
+<!ATTLIST Country id ID #REQUIRED>
+<!ELEMENT Telephone_Number (#PCDATA)>
+<!ELEMENT Website (#PCDATA)>
+<!ELEMENT Music_Info (Year+)>
+<!ELEMENT Year (Release_Year,Song_Info+)>
+<!ATTLIST Year class ID #REQUIRED>
+<!ELEMENT Release_Year (#PCDATA)>
+<!ELEMENT Song_Info (Song_Name,Writer,Singer,Producer?,Album?,Recorded?)>
+<!ELEMENT Song_Name (#PCDATA)>
+<!ELEMENT Writer (#PCDATA)>
+<!ELEMENT Singer (#PCDATA)>
+<!ELEMENT Producer (#PCDATA)>
+<!ELEMENT Album (#PCDATA)>
+<!ELEMENT Recorded (#PCDATA)>

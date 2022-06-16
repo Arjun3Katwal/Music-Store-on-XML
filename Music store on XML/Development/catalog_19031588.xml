@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="catalog_19031588.css"?>
+<!--<!DOCTYPE Music_store SYSTEM "catalog_19031588.dtd">--> 
+<Music_store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_19031588.xsd">
+	<Store_Info id="Store2">
+		<Logo id="logo"/>
+		<Name>Katwal Music Store</Name>
+		<Address>
+			<City id="ITA">Itahari</City>
+			<Country id="NEP">Nepal</Country>
+		</Address>
+		<Telephone_Number>025475685</Telephone_Number>
+		<Website>www.katwalstores.com</Website>
+	</Store_Info>
+	<Music_Info>
+		<Year class="year2021">
+			<Release_Year>2021</Release_Year>
+			<Song_Info>
+				<Song_Name>Song: Samsara</Song_Name>
+				<Writer>Writer: Bipul Chettri</Writer>
+				<Singer>Singer: Bipul Chettri</Singer>
+				<Producer>Producer: Bipul Chettri</Producer>
+				<Album>Album: Samaya</Album> 
+				<Recorded>Recorded: Anindo Bose at Plug 'N' Play Studios</Recorded>
+			</Song_Info>
+			<Song_Info>
+				<Song_Name>Song: Kholai Khola</Song_Name>
+				<Writer>Writer: Nitesh Jung Kunwar</Writer>
+				<Singer>Singer: Nitesh Jung Kunwar</Singer>
+				<Producer>Producer: Brownie</Producer>
+			</Song_Info>
+			<Song_Info>
+				<Song_Name>Song: Mero Pani Haina Ra Yo Desh</Song_Name>
+				<Writer>Writer: Prakash Saput</Writer>
+				<Singer>Singer: Prakash Saput</Singer>
+				<Producer>Producer: Milan Katwal</Producer>
+				<Recorded>Recorded: Prism Recording Studio</Recorded>
+			</Song_Info>
+			<Song_Info>
+				<Song_Name>Song: OOH YEA</Song_Name>
+				<Writer>Writer: Sabin Karki</Writer>
+				<Singer>Singer: Sabin Karki</Singer>
+				<Producer>Producer: Sanjay Karki</Producer>
+				<Recorded>Recorded: Venus Studio</Recorded>
+			</Song_Info>
+		</Year>
+		<Year class="year2020">
+		<Release_Year>2020</Release_Year>
+			<Song_Info>
+				<Song_Name>Song: Bairi Bhayo</Song_Name>
+				<Writer>Writer: Kamal Khatri</Writer>
+				<Singer>Singer: Simpal Kharel</Singer>
+				<Producer>Producer: Ajay Humagain</Producer> 
+				<Recorded>Recorded: Aarohi Entertainment</Recorded>
+			</Song_Info>
+			<Song_Info>
+				<Song_Name>Song: Tadha Bhaye Pani</Song_Name>
+				<Writer>Writer: Urgen Dong</Writer>
+				<Singer>Singer: Asmita Adhikari, Urgen Dong</Singer>
+				<Producer>Producer: Kendra Limbu</Producer>
+				<Recorded>Recorded: Sargarm Studio</Recorded>
+			</Song_Info>
+			<Song_Info>
+				<Song_Name>Song: Sirful</Song_Name>
+				<Writer>Writer: Beyond</Writer>
+				<Singer>Singer: Ekdev, Beyond</Singer>
+				<Recorded>Recorded: Ness Studio</Recorded>
+			</Song_Info>
+			<Song_Info>
+				<Song_Name>Song: Jyanle Timlai</Song_Name>
+				<Writer>Writer: Rosani Khadka Pyakurel</Writer>
+				<Singer>Singer: Almoda Rana Uprety</Singer>
+				<Producer>Producer: Mandeep Dahal</Producer>
+			</Song_Info>
+		</Year>
+		<Year class="year2019">
+		<Release_Year>2019</Release_Year>
+			<Song_Info>
+				<Song_Name>Song: Nakaima Fuli</Song_Name>
+				<Writer>Writer: Suresh Adhikari</Writer>
+				<Singer>Singer: Astha Raut</Singer>
+				<Producer>Producer: Hari Bahadur Raut</Producer> 
+				<Recorded>Recorded: A One Musician</Recorded>
+			</Song_Info>
+			<Song_Info>
+				<Song_Name>Song: Sali Mann Paryo</Song_Name>
+				<Writer>Writer: Kali Prasad Baskota</Writer>
+				<Singer>Singer: Kali Prasad Baskota, Ashmita Adhikari</Singer>
+				<Producer>Producer: Ranju Regmi Magar</Producer>
+				
+			</Song_Info>
+			<Song_Info>
+				<Song_Name>Song: Timro Gharko Woripari</Song_Name>
+				<Writer>Writer: Arjun Pokhrel</Writer>
+				<Singer>Singer: Sonam Topden, Ashmita Adhikari</Singer>
+				<Producer>Producer: Pooja Thapa, Sudarshan Thapa</Producer>
+				<Recorded>Recorded: A Pluse</Recorded>
+			</Song_Info>
+			<Song_Info>
+				<Song_Name>Song: Aashish</Song_Name>
+				<Writer>Writer: Bipul Chettri</Writer>
+				<Singer>Singer: Bipul Cheetri</Singer>
+				<Producer>Producer: Bipul Chettri</Producer>
+				<Recorded>Recorded: Anindo Bose at Plug 'N' Play Studios</Recorded>
+			</Song_Info>
+		</Year>
+	</Music_Info>				
+</Music_store>
+

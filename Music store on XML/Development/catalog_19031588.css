@@ -1,0 +1,54 @@
+*{
+	display: block;
+	font-family: Arial;
+}
+.Store2{
+	display: list-item;
+
+}
+#logo {
+	position: relative;
+	top: 5px;
+	left: 20px;
+
+	background-image: url("logo.jpg");
+	background-size:contain;
+	height: 100px;
+	width: 100px;
+
+	float: left;
+}
+Name, Address, Telephone_Number, Website {
+	text-align: center;
+	background-color: rgb(255,0,0);
+	padding-top: 5px;
+}
+
+
+Music_Info{
+	margin-top: 20px;
+	text-align: center;
+}
+Release_Year {
+	background-color: skyblue;
+	width: 150px;
+	margin-left: 45%;
+	font-family: Times Roman;
+	font-size: 40px;
+	letter-spacing: 5px;
+}
+Song_Info {
+	border: red solid 3px;
+	margin: 50px 100px 50px 100px;
+	padding: 20px;
+	box-shadow: 10px 15px #808080;
+}
+Song_Name{
+	background-color: skyblue;
+	width: 30%;
+	margin-left: 35%;
+}
+Song_Name,Writer,Singer,Producer,Recorded,Album {
+	padding:10px;
+	font-size: 20px;
+}
